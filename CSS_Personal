@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2e2e2e;
+    color: #708090; /* Slate Grey Text */
+}
+
+/* Navbar */
+.navbar {  /* Added missing closing brace */
+    width: 100%;
+    background-color: #333;
+    position: relative;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar ul li a {
+    color: #708090; 
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Photos Link */
+.photos-link img {
+    width: 30px;
+    height: auto;
+}
+
+/* Content */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.intro {
+    flex: 1;
+    max-width: 60%;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.intro .description {
+    font-size: 1em;
+    color: #708090; 
+    margin-top: 10px;
+}
+
+/* Photo Section */
+.photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #708090; /* Slate Grey Border */
+}
+
+/* Contact Info */
+.contact-info {
+    width: 100%;
+    background-color: #333;
+    color: #708090; /* Slate Grey Text */
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro {
+        max-width: 100%;
+    }
+
+    .photo {
+        margin-top: 20px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+}

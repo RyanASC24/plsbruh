@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Dissananayake - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="photos-link"><a href="#"><img src="more-photos.jpg" alt="More Photos"></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        <div class="intro">
+            <h1>Hi, I am Ryan Dissananayake.</h1>
+            <p class="description">
+                I am a rising junior at Manhasset High School. The college that I want to attend is Stony Brook, and I aspire to become a dental surgeon. I am a swimmer and have made all-state and competed in NCSA and JO's. I enjoy playing video games like CSGO and Valorant and have achieved Faceit level 10 and Immortal 2. Anyone up for a 1v1 for a band? This past summer, I attended a medical program at Stony Brook, and I am currently working as a Medical Assistant in a cardiology clinic.
+            </p>
+        </div>
+        <div class="photo">
+            <img src="profile.jpg" alt="Ryan Dissananayake">
+        </div>
+    </div>
+
+    <!-- Contact Info -->
+    <footer class="contact-info">
+        <p>Contact Info: 347-867-5528</p>
+    </footer>
+</body>
+</html>
